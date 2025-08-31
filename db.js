@@ -1,7 +1,7 @@
 // db.js
 import mongoose from "mongoose";
 
-const mongoURI = "mongodb://localhost:27017/";
+const mongoURI = "mongodb://localhost:27017/emailTestify";
 
 const connectToMongo = async () => {
   try {

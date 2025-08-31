@@ -1,7 +1,6 @@
 // index.js
 import connectToMongo from "./db.js";
 import express from "express";
-
 connectToMongo();
 
 const app = express();
