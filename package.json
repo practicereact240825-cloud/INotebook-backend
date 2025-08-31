@@ -2,8 +2,11 @@
   "name": "inotebook-backend",
   "version": "1.0.0",
   "description": "INotebook - Your Notebook on cloud",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

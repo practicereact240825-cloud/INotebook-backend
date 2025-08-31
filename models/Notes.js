@@ -1,9 +1,6 @@
-import mongoose from "mongoose";
-const { Schema } = mongoose;
-
 const NotesSchema = new Schema({
-  name: {
-    title: String,
+  title: {           // field name should be title, not name.title
+    type: String,
     required: true,
   },
   description: {
@@ -20,4 +17,4 @@ const NotesSchema = new Schema({
   },
 });
 
-export default mongoose.model("notes", NotesSchema);
+export default mongoose.model("Note", NotesSchema);
